@@ -38,12 +38,16 @@ Enter a number: -4
 Invalid input
 """
 
-x = int(input("Enter a number: "))
-y = 1
-strx = str(x)
-
-for i in range(1, x+1):
-    y = y*i
-
-stry = str(y)
-print(strx + "! is " + stry)
+x=input("Enter a number: ")
+x=int(x)
+x=x+1
+r=range(1,x)
+y=1
+if x < 0:
+    print("Invalid input")
+if x > 0:
+    for z in r:
+        y=y*z
+    x=str(x-1)
+    y=str(y)
+    print(x+"!"+" "+"is"+" "+y)
