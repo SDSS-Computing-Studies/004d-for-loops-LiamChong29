@@ -50,4 +50,4 @@ if x > 0:
         y=y*z
     x=str(x-1)
     y=str(y)
-    print(x+"!"+"is"+" "+y)
+    print(x+"!"+" "+"is"+" "+y)

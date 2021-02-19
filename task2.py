@@ -27,7 +27,7 @@ nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 x=input("Enter a name: ")
 for o in nameList:
     if x==o:
-        print("That name is in the list")
+        print("That name is on the list")
         break
 if o!=x:
     print("That name is not on the list")
