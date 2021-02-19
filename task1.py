@@ -17,3 +17,10 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x=input("Enter an integer: ")
+x=int(x)
+y=int(x*12)
+r=range(1,13)
+for o in r:
+    print(o*x, end= " ")

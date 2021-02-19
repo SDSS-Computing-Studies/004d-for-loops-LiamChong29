@@ -17,3 +17,17 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+x=input("Input a number that is smaller than 10: ")
+x=int(x)
+y=range(1,x)
+w=int(1)
+z=int(0)
+for o in y:
+    w=str(w)
+    w=w+"1"
+    w=int(w)
+    z=z+w
+z=z+1
+z=str(z)
+print("the sum of the series is "+z)

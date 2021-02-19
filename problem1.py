@@ -22,3 +22,10 @@ enter a number:4
 ****
 
 """
+
+x=input("Enter Height and Width of box: ")
+x=int(x)
+
+y=range(0,x)
+for w in y:
+    print("*" * x)
