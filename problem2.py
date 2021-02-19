@@ -43,11 +43,9 @@ x=int(x)
 x=x+1
 r=range(1,x)
 y=1
-if x < 0:
-    print("Invalid input")
-if x > 0:
-    for z in r:
-        y=y*z
-    x=str(x-1)
-    y=str(y)
-    print(x+"!"+" "+"is"+" "+y)
+
+for z in r:
+    y=y*z
+x=str(x-1)
+y=str(y)
+print(x+"!"+" "+"is"+" "+y)
